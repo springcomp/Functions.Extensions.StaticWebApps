@@ -9,8 +9,8 @@
     <RepositoryUrl>https://github.com/springcomp/Functions.Extensions.StaticWebApps</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags>Azure Functions, Static Web Apps, ClaimsPrincipal</PackageTags>
-    <RootNamespace>SpringComp.Functions.Extensions.StaticWebApps</RootNamespace>
-    <AssemblyName>SpringComp.Functions.Extensions.StaticWebApps</AssemblyName>
+    <RootNamespace>Springcomp.Functions.Extensions.StaticWebApps</RootNamespace>
+    <AssemblyName>Springcomp.Functions.Extensions.StaticWebApps</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
