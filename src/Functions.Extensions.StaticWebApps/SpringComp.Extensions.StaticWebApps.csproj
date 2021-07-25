@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>@Springcomp</Authors>
+    <Product />
+    <Description>This custom Azure Functions extension works with Static Web Apps api functions and extracts the authenticated user information as a ClaimsPrincipal object.</Description>
+    <RepositoryUrl>https://github.com/springcomp/Functions.Extensions.StaticWebApps</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>Azure Functions, Static Web Apps, ClaimsPrincipal</PackageTags>
+    <RootNamespace>SpringComp.Functions.Extensions.StaticWebApps</RootNamespace>
+    <AssemblyName>SpringComp.Functions.Extensions.StaticWebApps</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.27" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.14" />
+  </ItemGroup>
+
+</Project>
